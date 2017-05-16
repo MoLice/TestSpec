@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestSpec_moli"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "My Testing Project"
 
   # This description is used to generate tags and improve search results.
@@ -101,6 +101,7 @@ Pod::Spec.new do |s|
 
   s.subspec "SubSpec2" do |ss|
     ss.source_files = "TestSpec/Subspec2/*.{h,m}"
+    ss.dependency "TestSpec_moli/SubSpec1"
   end
 
   s.subspec "SubSpec3" do |ss|
