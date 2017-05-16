@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0993731ECADAD4007908CA /* Subspec1Object.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0993721ECADAD4007908CA /* Subspec1Object.m */; };
+		CD0993791ECADB3B007908CA /* Subspec2Object.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0993781ECADB3B007908CA /* Subspec2Object.m */; };
 		CD199C4C1EC592D4003F90B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD199C4B1EC592D4003F90B2 /* main.m */; };
 		CD199C4F1EC592D4003F90B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD199C4E1EC592D4003F90B2 /* AppDelegate.m */; };
 		CD199C521EC592D4003F90B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD199C511EC592D4003F90B2 /* ViewController.m */; };
@@ -38,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD09936E1ECADA71007908CA /* Subspec1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec1.h; sourceTree = "<group>"; };
+		CD0993711ECADAD4007908CA /* Subspec1Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec1Object.h; sourceTree = "<group>"; };
+		CD0993721ECADAD4007908CA /* Subspec1Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subspec1Object.m; sourceTree = "<group>"; };
+		CD0993741ECADAEC007908CA /* Subspec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec2.h; sourceTree = "<group>"; };
+		CD0993771ECADB3B007908CA /* Subspec2Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec2Object.h; sourceTree = "<group>"; };
+		CD0993781ECADB3B007908CA /* Subspec2Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subspec2Object.m; sourceTree = "<group>"; };
 		CD199C471EC592D4003F90B2 /* TestSpec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD199C4B1EC592D4003F90B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD199C4D1EC592D4003F90B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,6 +165,9 @@
 			children = (
 				CDF2E0FD1ECA9D49002CD5AB /* Subspec1View.h */,
 				CDF2E0FE1ECA9D49002CD5AB /* Subspec1View.m */,
+				CD09936E1ECADA71007908CA /* Subspec1.h */,
+				CD0993711ECADAD4007908CA /* Subspec1Object.h */,
+				CD0993721ECADAD4007908CA /* Subspec1Object.m */,
 			);
 			path = Subspec1;
 			sourceTree = "<group>";
@@ -166,6 +177,9 @@
 			children = (
 				CDF2E1001ECA9D6F002CD5AB /* Subspec2View.h */,
 				CDF2E1011ECA9D6F002CD5AB /* Subspec2View.m */,
+				CD0993741ECADAEC007908CA /* Subspec2.h */,
+				CD0993771ECADB3B007908CA /* Subspec2Object.h */,
+				CD0993781ECADB3B007908CA /* Subspec2Object.m */,
 			);
 			path = Subspec2;
 			sourceTree = "<group>";
@@ -316,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF2E1051ECA9D7B002CD5AB /* Subspec3View.m in Sources */,
+				CD0993791ECADB3B007908CA /* Subspec2Object.m in Sources */,
+				CD0993731ECADAD4007908CA /* Subspec1Object.m in Sources */,
 				CD199C521EC592D4003F90B2 /* ViewController.m in Sources */,
 				CD199C4F1EC592D4003F90B2 /* AppDelegate.m in Sources */,
 				CDF2E0FF1ECA9D49002CD5AB /* Subspec1View.m in Sources */,
