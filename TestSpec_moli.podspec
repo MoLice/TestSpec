@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestSpec_moli"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "My Testing Project"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TestSpec/Subspec{1,2,3}/*.{h,m}"
+#s.source_files  = "TestSpec/Subspec{1,2,3}/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
   
