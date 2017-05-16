@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestSpec_moli"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "My Testing Project"
 
   # This description is used to generate tags and improve search results.
@@ -95,13 +95,13 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
   
-  s.subspec "SubSpec1" do |ss|
+  s.subspec "Core" do |ss|
     ss.source_files = "TestSpec/Subspec1/*.{h,m}"
   end
 
   s.subspec "SubSpec2" do |ss|
     ss.source_files = "TestSpec/Subspec2/*.{h,m}"
-    ss.dependency "TestSpec_moli/SubSpec1"
+    ss.dependency "TestSpec_moli/Core"
   end
 
   s.subspec "SubSpec3" do |ss|
