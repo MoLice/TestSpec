@@ -15,6 +15,9 @@
 		CD199C5A1EC592D4003F90B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD199C581EC592D4003F90B2 /* LaunchScreen.storyboard */; };
 		CD199C651EC592D4003F90B2 /* TestSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD199C641EC592D4003F90B2 /* TestSpecTests.m */; };
 		CD199C701EC592D4003F90B2 /* TestSpecUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD199C6F1EC592D4003F90B2 /* TestSpecUITests.m */; };
+		CDF2E0FF1ECA9D49002CD5AB /* Subspec1View.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2E0FE1ECA9D49002CD5AB /* Subspec1View.m */; };
+		CDF2E1021ECA9D6F002CD5AB /* Subspec2View.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2E1011ECA9D6F002CD5AB /* Subspec2View.m */; };
+		CDF2E1051ECA9D7B002CD5AB /* Subspec3View.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2E1041ECA9D7B002CD5AB /* Subspec3View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CD199C6B1EC592D4003F90B2 /* TestSpecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSpecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD199C6F1EC592D4003F90B2 /* TestSpecUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpecUITests.m; sourceTree = "<group>"; };
 		CD199C711EC592D4003F90B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2E0FD1ECA9D49002CD5AB /* Subspec1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec1View.h; sourceTree = "<group>"; };
+		CDF2E0FE1ECA9D49002CD5AB /* Subspec1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subspec1View.m; sourceTree = "<group>"; };
+		CDF2E1001ECA9D6F002CD5AB /* Subspec2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec2View.h; sourceTree = "<group>"; };
+		CDF2E1011ECA9D6F002CD5AB /* Subspec2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subspec2View.m; sourceTree = "<group>"; };
+		CDF2E1031ECA9D7B002CD5AB /* Subspec3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subspec3View.h; sourceTree = "<group>"; };
+		CDF2E1041ECA9D7B002CD5AB /* Subspec3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subspec3View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,9 @@
 		CD199C491EC592D4003F90B2 /* TestSpec */ = {
 			isa = PBXGroup;
 			children = (
+				CDF2E0FA1ECA9D28002CD5AB /* Subspec1 */,
+				CDF2E0FB1ECA9D28002CD5AB /* Subspec2 */,
+				CDF2E0FC1ECA9D28002CD5AB /* Subspec3 */,
 				CD199C4D1EC592D4003F90B2 /* AppDelegate.h */,
 				CD199C4E1EC592D4003F90B2 /* AppDelegate.m */,
 				CD199C501EC592D4003F90B2 /* ViewController.h */,
@@ -138,6 +150,33 @@
 				CD199C711EC592D4003F90B2 /* Info.plist */,
 			);
 			path = TestSpecUITests;
+			sourceTree = "<group>";
+		};
+		CDF2E0FA1ECA9D28002CD5AB /* Subspec1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2E0FD1ECA9D49002CD5AB /* Subspec1View.h */,
+				CDF2E0FE1ECA9D49002CD5AB /* Subspec1View.m */,
+			);
+			path = Subspec1;
+			sourceTree = "<group>";
+		};
+		CDF2E0FB1ECA9D28002CD5AB /* Subspec2 */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2E1001ECA9D6F002CD5AB /* Subspec2View.h */,
+				CDF2E1011ECA9D6F002CD5AB /* Subspec2View.m */,
+			);
+			path = Subspec2;
+			sourceTree = "<group>";
+		};
+		CDF2E0FC1ECA9D28002CD5AB /* Subspec3 */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2E1031ECA9D7B002CD5AB /* Subspec3View.h */,
+				CDF2E1041ECA9D7B002CD5AB /* Subspec3View.m */,
+			);
+			path = Subspec3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF2E1051ECA9D7B002CD5AB /* Subspec3View.m in Sources */,
 				CD199C521EC592D4003F90B2 /* ViewController.m in Sources */,
 				CD199C4F1EC592D4003F90B2 /* AppDelegate.m in Sources */,
+				CDF2E0FF1ECA9D49002CD5AB /* Subspec1View.m in Sources */,
+				CDF2E1021ECA9D6F002CD5AB /* Subspec2View.m in Sources */,
 				CD199C4C1EC592D4003F90B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +560,7 @@
 				CD199C761EC592D4003F90B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD199C771EC592D4003F90B2 /* Build configuration list for PBXNativeTarget "TestSpecTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +569,7 @@
 				CD199C791EC592D4003F90B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD199C7A1EC592D4003F90B2 /* Build configuration list for PBXNativeTarget "TestSpecUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +578,7 @@
 				CD199C7C1EC592D4003F90B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
