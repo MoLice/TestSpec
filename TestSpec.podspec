@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  asdfasdlfkajsdlfkajsldkfjalskdjfasdf
                    DESC
 
   s.homepage     = "http://www.baidu.com"
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -93,6 +94,18 @@ Pod::Spec.new do |s|
   s.source_files  = "TestSpec/Subspec{1,2,3}/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
+  
+  s.subspec "SubSpec1" do |ss|
+    ss.source_files = "TestSpec/Subspec1/*.{h,m}"
+  end
+
+  s.subspec "SubSpec2" do |ss|
+    ss.source_files = "TestSpec/Subspec2/*.{h,m}"
+  end
+
+  s.subspec "SubSpec3" do |ss|
+    ss.source_files = "TestSpec/Subspec3/*.{h,m}"
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
